@@ -1,8 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+1. 자연어 문제 설명
+사용자로부터 받은 정수 n을 가지고, n이 가리키는 배열의 시작 index를 0부터 시작하여 증가하며, 배열의 각 요소에 대해 factorial을 구하는 프로그램을 작성하세요. factorials은 자연수 n에 대해 1부터 n까지의 모든 자연수를 곱하는 것이며 집합을 사용해 구현 해야 합니다. 만약 n이 5를 가리키면, 5의 팩토리얼은 5x4x3x2x1 = 120입니다. 
+
+입력 예시
+
+5
+
+출력 예시
+
+120
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
