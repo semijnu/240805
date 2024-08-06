@@ -1,8 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+1. 자연어 문제 설명
+문제 : 사용자로부터 숫자를 입력받아 홀수인지 짝수인지 판별하는 C++ 프로그램을 작성하십시오. 
+
+힌트 :
+- 쉬운 힌트 : if문을 사용하여 숫자를 2로 나눈 나머지가 0인지 아닌지로 판별합니다.
+- 어려운 힌트 : 양수일 경우와 음수일 경우를 다룰 수 있도록 if문을 사용해 로직을 구성합니다.
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
