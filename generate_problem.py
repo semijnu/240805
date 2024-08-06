@@ -53,10 +53,10 @@ def compile_and_run_cpp(file_path):
     else:
         print("프로그램 실행 결과:", run_process.stdout)
 
-prompt = "
+prompt = """
 c++ 문제를 낼건데 힌트는 2개줬으면 좋겠는데 한개는 쉬운거 한개는 어려운 힌트로 제공해줘 학생들한테 제공할거야
 범위는 if문이야
 
-" # 닫는 삼중 따옴표
+""" # 닫는 삼중 따옴표
 problem = generate_problem(prompt)
 update_files(problem)
