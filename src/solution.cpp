@@ -1,11 +1,6 @@
-#include <iostream>
+c++을 사용하여 간단하게 if 문을 활용한 프로그램을 작성해보겠습니다. 
+힌트:
+    - 쉬운 힌트: if문은 조건문입니다. 어떤 조건을 충족할 때만 코드를 실행하도록 합니다.
+    - 어려운 힌트: 다수의 조건을 처리하기 위해서는 if, else if, else 문을 사용할 수 있습니다.
 
-int solution() {
-    // 여기에 코드를 작성하세요
-    return 0;
-}
-
-int main() {
-    std::cout << solution() << std::endl;
-    return 0;
-}
+2. 문제코드
