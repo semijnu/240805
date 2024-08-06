@@ -72,6 +72,8 @@ prompt = """
 문제에 대한 테스트 케이스 예제를 10개정도 생성해줘 형식에 맞게 생성해줘~
 
 
+생성된 거에 1. 자연어 문제 설명 : 이나 2. 문제코드 : 이런거 추가하지마~~~
+
 """ # 닫는 삼중 따옴표
 problem = generate_problem(prompt)
 update_files(problem)
