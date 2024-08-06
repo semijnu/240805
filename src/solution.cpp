@@ -1,11 +1,12 @@
+2. 문제코드
+```cpp
 #include <iostream>
-
-int solution() {
-    // 여기에 코드를 작성하세요
-    return 0;
-}
+using namespace std;
 
 int main() {
-    std::cout << solution() << std::endl;
+    int n, m;
+    cin >> n >> m;
+    // 2차원 배열 및 함수 구현 부분을 작성하세요.
     return 0;
 }
+```
