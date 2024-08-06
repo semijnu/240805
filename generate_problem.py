@@ -54,7 +54,6 @@ def compile_and_run_cpp(file_path):
         print("프로그램 실행 결과:", run_process.stdout)
 
 prompt = """
-
 1. 자연어 문제 설명
 나는 대학교 교수인데 학생들한테 문제를 낼거야 c++ 문제를 낼건데 힌트는 2개줬으면 좋겠는데 한개는 쉬운거 한개는 어려운 힌트로 제공해줘 
 범위는 if문이야
@@ -85,10 +84,8 @@ int main() {
 
 4. 테스트 케이스
 문제에 대한 테스트 케이스 예제를 10개정도 생성해줘 형식에 맞게 생성해줘~
-
-
 생성된 거에 1. 자연어 문제 설명 : 이나 2. 문제코드 : 이런거 추가하지마~~~
-
 """ # 닫는 삼중 따옴표
+
 problem = generate_problem(prompt)
 update_files(problem)
